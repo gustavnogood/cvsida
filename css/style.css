@@ -9,7 +9,7 @@ body{
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2.5fr 0.5fr;
+    grid-template-rows: fit-content(40%) 2.5fr 0.5fr;
     grid-template-areas: 
         "header header header header"
         "nav main main main"
@@ -47,7 +47,7 @@ img{
     height: auto;
     float: left;
     margin: 1em;
-    max-width: 
+/*     max-width: 380px; */
 }
 #main>h3{
     float: right;
@@ -185,7 +185,7 @@ footer{
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.5fr 0.5fr 2.5fr 0.5fr;
+        grid-template-rows: fit-content(40%) fit-content(40%) 2.5fr 0.5fr;
         grid-template-areas: 
             "header header header"
             "nav nav nav"
@@ -201,7 +201,6 @@ footer{
         justify-content: space-around;
         padding: 5%;
         margin: 0;
-        text-decoration: underline;
     }
 
     img{
@@ -236,10 +235,18 @@ footer{
         margin: 0;
         background-color:#26C2EB;
         line-height: 30px;
-
-        
-        
+        text-decoration: none;
     }
+
+    .active-button {
+        margin-bottom: 0;
+        margin: 0;
+        background-color:#26C2EB;
+        line-height: 30px;
+        text-decoration:underline;
+    }
+
+
 
     body{
         padding: 0;
