@@ -47,6 +47,7 @@ img{
     height: auto;
     float: left;
     margin: 1em;
+    max-width: 
 }
 #main>h3{
     float: right;
@@ -79,6 +80,17 @@ footer{
     list-style: none;
     text-align: center;
     background-color: #3C82C1;
+/*     margin-bottom: 10px; */
+    width: 70%;
+    line-height: 60px;
+    border-radius: 10px;
+    margin: 1em;
+    
+}
+.active-button {
+    list-style: none;
+    text-align: center;
+    background-color: #174a77;
 /*     margin-bottom: 10px; */
     width: 70%;
     line-height: 60px;
