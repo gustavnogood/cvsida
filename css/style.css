@@ -79,7 +79,7 @@ footer{
     list-style: none;
     text-align: center;
     background-color: #3C82C1;
-    margin-bottom: 10px;
+/*     margin-bottom: 10px; */
     width: 70%;
     line-height: 60px;
     border-radius: 10px;
@@ -102,7 +102,7 @@ a:hover{
 
 a:active{
     color:#EBDA26;
-    text-decoration:underline;
+/*     text-decoration:underline; */
 }
 
 h1 {
@@ -113,7 +113,7 @@ footer{
     color: white;
     padding: 1rem;
 }
-
+/* Switch for project subpage*/
 .switch {
     position: relative;
     display: inline-block;
@@ -164,7 +164,10 @@ footer{
     -ms-transform: translateX(31px);
     transform: translateX(31px);
   }
+/* Switch end */
 
+
+/* TABLET LAYOUT */
 @media (max-width: 850px) {
 
     .container {
@@ -205,11 +208,13 @@ footer{
     }
 }
 
-@media (max-width: 600px){
+/* MOBILE LAYOUT */
+@media (max-width: 650px){
 
     .menu {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: space-around;
         padding: 5%;
         margin: 0;
     }
@@ -221,8 +226,15 @@ footer{
         width: 0;
         line-height: 0;
         border-radius: 0;
+        margin: 0.5em; 
+
         
         
+    }
+
+    body{
+        padding: 0;
+        margin: 0;
     }
 
 }
