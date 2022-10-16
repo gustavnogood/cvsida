@@ -61,7 +61,7 @@ footer{
     grid-area: footer;
     background-color: black;
     text-align: center;
-    font-size: 5px;
+    font-size: 10px;
 
 }
 
@@ -156,7 +156,7 @@ footer{
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #f32121;
+    box-shadow: 0 0 1px #f77070;
   }
   
   input:checked + .slider:before {
@@ -189,6 +189,7 @@ footer{
         justify-content: space-around;
         padding: 5%;
         margin: 0;
+        text-decoration: underline;
     }
 
     img{
@@ -214,19 +215,15 @@ footer{
     .menu {
         display: flex;
         flex-direction: column;
-        align-items: space-around;
-        padding: 5%;
+        align-items: space-evenly;
+        padding: 0;
         margin: 0;
     }
     .button {
-        list-style: none;
-        text-align: center;
-        background-color: #3C82C1;
         margin-bottom: 0;
-        width: 0;
-        line-height: 0;
-        border-radius: 0;
-        margin: 0.5em; 
+        margin: 0;
+        background-color:#26C2EB;
+        line-height: 30px;
 
         
         
