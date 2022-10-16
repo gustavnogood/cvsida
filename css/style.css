@@ -1,7 +1,7 @@
 
 body{ 
     background-color: lightgray;
-    padding: 10%;
+    padding: 2% 10%;
     font-family: 'Raleway', sans-serif;
    
 
@@ -190,6 +190,7 @@ footer{
 
     img{
         float: none;
+        width: 50vw;
     }
     #main>p{
         float:none;
@@ -198,4 +199,30 @@ footer{
     #main>h3{
         float: none;
     }
+
+    body{
+        padding:2%;
+    }
+}
+
+@media (max-width: 600px){
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        padding: 5%;
+        margin: 0;
+    }
+    .button {
+        list-style: none;
+        text-align: center;
+        background-color: #3C82C1;
+        margin-bottom: 0;
+        width: 0;
+        line-height: 0;
+        border-radius: 0;
+        
+        
+    }
+
 }
