@@ -25,18 +25,26 @@
             </ul>
         </nav>
         <main>
-            <h3>En slider utan Javascript, endast html och css</h3>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider"></span>
-            </label>
-            <p>Klicka på mig</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos consectetur porro nihil fugiat perferendis sit non error magni, ex tempora nostrum? Adipisci commodi amet facere, nesciunt minima necessitatibus nam autem.</p>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <a href="https://github.com/abubakar-21/Quire"><img src="./Bilder/Quire.png" id="lastClone" alt=""></a>
+                    <a href="https://wp.gransegel.se/"><img src="./Bilder/gran.png" alt=""></a>
+                    <a href="https://github.com/gustavnogood/-Rock-Paper-Scissors-"><img src="./Bilder/Namnlös.png" alt=""></a>
+                    <a href="https://github.com/abubakar-21/Quire"><img src="./Bilder/Quire.png" alt=""></a>
+                    <a href="https://wp.gransegel.se/"><img src="./Bilder/gran.png"id="firstClone" alt=""></a>
+                </div>
+            </div>
+            <div class="text-container">
+                <p id="text"></p>
+        
+            <button id="prevBtn">Prev</button>
+            <button id="nextBtn">Next</button>
         </main>
         <footer>
             <p>Property of Gustav Johansson</p>
             <p>2022</p>
         </footer>
     </div>
+<script src="carousel.js"></script>
 </body>
 </html>
