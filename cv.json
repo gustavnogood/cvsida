@@ -10,20 +10,5 @@
         "lenght": "2014-"
 
         }
-    ],
-
-    "eductaion": [{
-            "name": "Täby enskilda gymnasium",
-            "type": "Medialinjen",
-            "lenght": "2007-2010"
-    
-            },
-            {
-            "name": "Chas academy",
-            "type": "Fullstack Javascript",
-            "lenght": "2022-"
-        
-                }
-
     ]
 }
