@@ -45,7 +45,7 @@ const carouselSlide = document.querySelector('.carousel-slide');
                 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
             }
         });
-        // Check if screen size changes
+        
         window.addEventListener('resize', () => {
             carouselSlide.style.transition = "none";
             size = carouselImages[0].clientWidth;
