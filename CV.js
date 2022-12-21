@@ -1,2 +1,3 @@
-
-console.log("Hello World")
+fetch("./cv.json")
+.then(res => res.json())
+.then(data => console.log(data))

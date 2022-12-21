@@ -1,12 +1,12 @@
 {
     "work": [{
         "name": "Responda",
-        "role": "Key account manager",
+        "type": "Key account manager",
         "lenght": "2010-2014"
         },
         {
         "name": "Othervice",
-        "role": "Delägare och producent",
+        "type": "Delägare och producent",
         "lenght": "2014-"
 
         }
